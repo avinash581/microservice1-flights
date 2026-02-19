@@ -1,0 +1,6 @@
+app:
+  name: flights
+  image: nginx-flight:1.25
+  port: 80
+  replicas: 5
+  type: NodePort
